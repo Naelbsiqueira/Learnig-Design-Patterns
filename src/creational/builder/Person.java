@@ -1,4 +1,4 @@
-package strutural.builder;
+package creational.builder;
 /*Padrão Builder : É um padrão criacional que permite separar a cronstrução
 da sua implementação, de forma que o mesmo processo de construção possa criar
 diferentes representações. (construção de objetos com caracteríscan diferentes)

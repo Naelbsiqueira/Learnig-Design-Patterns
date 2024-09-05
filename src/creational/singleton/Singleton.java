@@ -1,4 +1,4 @@
-package strutural.singleton;
+package creational.singleton;
 
 public final class Singleton {
     private  static Singleton uniqueInstance;

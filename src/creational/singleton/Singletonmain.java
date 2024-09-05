@@ -1,4 +1,4 @@
-package strutural.singleton;
+package creational.singleton;
 
 public class Singletonmain {
     public static void main(String[] args) {

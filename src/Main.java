@@ -1,4 +1,4 @@
-import strutural.builder.Person;
+import creational.builder.Person;
 
 public class Main {
     public static void main(String[] args) {
