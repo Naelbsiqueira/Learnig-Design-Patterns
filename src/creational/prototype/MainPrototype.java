@@ -1,6 +1,7 @@
 package creational.prototype;
 
-public class Prototypemain {
+
+public class MainPrototype {
     public static void main(String[] args) {
     Car originalCar = new Car("Ferrari", "red");
     System.out.println("Original Car: " + originalCar);

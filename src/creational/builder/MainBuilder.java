@@ -1,6 +1,6 @@
 package creational.builder;
 
-public class Buildermain {
+public class MainBuilder {
     public static void main(String[] args) {
         Person build = new Person.PersonBuilder()
                 .firstname("Nael")
