@@ -9,7 +9,9 @@ public class DecoratorMain {
             Address address = new Address("Avenida Central", "Zona 1", "São Paulo",
                     "SP", "12345-678");
             Addresser addresser = new AddresserSimple();
-            addresser = new AddresserToUpperCase(addresser);
+            //addresser = new AddresserToUpperCase(addresser);
+            //  addresser = new AddresserSimple(addresser);
+
             addresser = new AddresserBorder(addresser);
 
             String addressFomate =addresser.prepareAddress(address);
