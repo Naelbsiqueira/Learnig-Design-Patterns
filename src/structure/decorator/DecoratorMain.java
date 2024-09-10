@@ -10,9 +10,10 @@ public class DecoratorMain {
                     "SP", "12345-678");
             Addresser addresser = new AddresserSimple();
             addresser = new AddresserToUpperCase(addresser);
+            addresser = new AddresserBorder(addresser);
 
-            String addressupcase =addresser.prepareAddress(address);
-            System.out.println(addressupcase);
+            String addressFomate =addresser.prepareAddress(address);
+            System.out.println(addressFomate);
         }
 
 }

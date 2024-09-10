@@ -1,6 +1,7 @@
 package structure.decorator;
 
 class AddresserSimple implements Addresser{
+    @Override
     public String prepareAddress(Address address){
         StringBuilder sb = new StringBuilder();
         sb.append(address.avenue);

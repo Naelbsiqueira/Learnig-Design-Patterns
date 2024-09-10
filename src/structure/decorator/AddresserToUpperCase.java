@@ -6,6 +6,7 @@ public class AddresserToUpperCase implements Addresser {
         super();
         this.addresser = addresser;
     }
+    @Override
     public String prepareAddress(Address address){
         return addresser.prepareAddress(address).toUpperCase();
 
