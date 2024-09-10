@@ -1,4 +1,4 @@
-package structure.pack;
+package structure.adapter.pack;
 
 public class LegalPerson implements PersonAdapter {
     private String cnpj;

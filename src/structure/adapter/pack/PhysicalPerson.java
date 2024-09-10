@@ -1,4 +1,4 @@
-package structure.pack;
+package structure.adapter.pack;
 
 public class PhysicalPerson implements PersonAdapter{
     private String cpf;
