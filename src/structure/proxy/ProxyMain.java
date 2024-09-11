@@ -16,5 +16,6 @@ public class ProxyMain {
         // Chama o metodo do proxy que delega a exibição da lista
         System.out.println("");
         list.show();// Método show() da interface ContactList
+        list.printCompleteList();
     }
 }
